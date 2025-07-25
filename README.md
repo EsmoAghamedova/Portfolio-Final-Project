@@ -1,43 +1,66 @@
-# 🌟 Esmira Aghamedova — Portfolio Website
+# 🌸 Esmira Aghamedova – Personal Portfolio
 
-Welcome to my portfolio! I'm Esmira, a passionate and curious front-end developer-in-the-making 💻.  
-Here you'll find some of the cool projects I've worked on, my design concepts, and the journey I'm on as I grow in the world of tech and creativity 🌈
-
----
-
-## 🚀 Tech Stack
-
-- **HTML5** & **CSS3**
-- **JavaScript (ES6+)** (soon 👀)
-- **React.js** (soon 👀)
-- **Figma** for UI/UX Design
-- A sprinkle of ✨ curiosity & creativity
+Welcome to my personal portfolio website!  
+I'm **Esmira Aghamedova**, a motivated student and aspiring **Front-End Developer** with a passion for building clean, responsive, and beautiful websites. This project showcases my journey, my skills, and the projects I've worked on so far 💻✨
 
 ---
 
-## 🎨 What This Site Includes
+## 🚀 About the Project
 
-- 🌐 **Home Page** — clean intro, hero section, aesthetic vibe
-- 🧑‍💻 **About Me** — a glimpse of who I am, my passions & goals
-- 📂 **Projects** — handpicked works that show my progress
-- 📞 **Contact** — let’s connect, collab, or just say hi!
+This portfolio was built using **HTML5** and **CSS3**, with an optional touch of **JavaScript** for interactivity.  
+It includes 5 main sections:
 
----
-
-## 🛠 Features
-
-- ✨ Fully responsive design
-- 💅 Custom UI inspired by modern design trends
-- 🎯 Clear structure & easy navigation
-- 🌙 Light/Dark Mode (maybe soon 😎)
+- 🏠 **Home** – A welcoming hero section with video animation and intro text  
+- 👩‍💻 **About Me** – Who I am, what I love, and where I'm headed  
+- 🧩 **Projects** – A collection of my small but meaningful web projects  
+- 🎓 **Certificates** – Achievements and courses I’ve completed  
+- 📞 **Contact** – Ways to connect with me, including email and GitHub links
 
 ---
 
-## 📁 Folder Structure (optional)
+## 🎨 Design Vibe
 
-```bash
-📁 my-portfolio/
-├── 📁 pages/
-├── 📁 styles/
-├── index.html
-└── README.md
+The design of this portfolio reflects my personal energy and goals:  
+**Calm, Clean, Creative, and Future-Oriented** ✨  
+Color palette is inspired by **cold brew tones** ☕ + soft modern UI  
+Fonts: `Poppins`, `Playfair Display`, and `Inter`
+
+---
+
+## 📸 Features
+
+- 🎥 Hero section with animated background video  
+- 🌐 Responsive layout for all screen sizes  
+- 🎀 Clean and aesthetic design  
+- 💾 Hosted on GitHub Pages  
+- 🔗 Easy navigation between pages
+
+---
+
+## 🛠️ Tech Stack
+
+- HTML5  
+- CSS3  
+- (Optional: JavaScript)  
+- Git & GitHub  
+- Figma (for design planning)
+
+---
+
+## 📬 Contact
+
+- GitHub: [@esmira-dev](https://github.com/EsmoAghamedova)  
+- Email: **esmo.agamedova2020@gmail.com**  
+- Portfolio: [Live Website](https://your-portfolio-link.com) [I'll add]
+
+---
+
+## 💜 Final Project for TBC x GeoLab – Web Programming Course
+
+This project is my **final assignment** for the [“Introduction to Web Programming (HTML, CSS)”] course by **TBC TechSchool x GeoLab**.  
+Through this journey, I explored coding, creativity, and discipline — and I’m excited to continue leveling up 🚀
+
+> "From tiny cards to clean grids, this is where my story begins." 💅
+
+---
+
