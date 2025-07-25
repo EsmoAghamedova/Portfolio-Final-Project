@@ -49,7 +49,8 @@ Fonts: `Poppins`, `Playfair Display`, and `Inter`
 
 ## 📬 Contact
 
-- GitHub: [@esmira-dev](https://github.com/EsmoAghamedova)  
+- GitHub: [@EsmoAghamedova](https://github.com/EsmoAghamedova)
+- Instagram: [@esmoo2009](https://www.instagram.com/esmoo2009)
 - Email: **esmo.agamedova2020@gmail.com**  
 - Portfolio: [Live Website](https://your-portfolio-link.com) [I'll add]
 
