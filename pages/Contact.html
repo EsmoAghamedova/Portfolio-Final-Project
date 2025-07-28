@@ -21,7 +21,7 @@
         </div>
         <nav class="nav" id="mainNav">
           <a href="../index.html">HOME</a>
-          <a href="About.html">ABOUT ME</a>
+          <a href="About-me.html">ABOUT ME</a>
           <a href="Projects.html">PROJECTS</a>
           <a href="Contact.html" class="active">CONTACT ME</a>
         </nav>
@@ -32,7 +32,7 @@
           <p class="contact-desc">
             Feel free to reach out for collaborations or just a friendly hello!
           </p>
-          <form class="contact-form">
+          <form class="contact-form" id="contact-form">
             <input type="text" name="name" placeholder="Your Name" required />
             <input
               type="email"
@@ -69,6 +69,45 @@
       burgerBtn.addEventListener("click", () => {
         mainNav.classList.toggle("active");
       });
+    </script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script>
+      emailjs.init("Su-r4JTDKCxb0Q7Gr"); 
+
+      document
+        .getElementById("contact-form")
+        .addEventListener("submit", function (event) {
+          event.preventDefault();
+
+          const form = this;
+          const formData = {
+            name: form.name.value,
+            email: form.email.value,
+            message: form.message.value,
+            to_email: "esmira.agamedovate03@geolab.edu.ge",
+          };
+
+          emailjs.send("service_qh1ib5o", "template_1wrtmeu", formData).then(
+            function () {
+              console.log("Message sent to Esmo ✅");
+            },
+            function (error) {
+              console.error("Error sending to Esmo ❌", error);
+            }
+          );
+
+          emailjs.send("service_qh1ib5o", "template_35j4t8v", formData).then(
+            function () {
+              alert("Message sent! You'll get a confirmation 💌");
+              form.reset();
+            },
+            function (error) {
+              console.error("Error sending to user ❌", error);
+            }
+          );
+        });
     </script>
   </body>
 </html>

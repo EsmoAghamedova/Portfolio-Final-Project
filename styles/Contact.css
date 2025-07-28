@@ -170,6 +170,12 @@ body {
     width: 100%;
 }
 
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color: #fff;
+    opacity: 0.7;
+}
+
 .contact-form input:focus,
 .contact-form textarea:focus {
     border-color: #7fffd4;
