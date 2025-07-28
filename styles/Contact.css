@@ -116,7 +116,7 @@ body {
 }
 
 .contact-section {
-    width: 100%;
+    width: 800px;
     max-width: 1200px;
     display: flex;
     flex-direction: row;
@@ -131,6 +131,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
+    align-items: center;
 }
 
 .contact-title {
@@ -151,6 +152,8 @@ body {
     flex-direction: column;
     gap: 1rem;
     margin-bottom: 1.5rem;
+    width: 100%;
+    align-items: center;
 }
 
 .contact-form input,
@@ -164,6 +167,7 @@ body {
     resize: none;
     outline: none;
     transition: border-color 0.3s;
+    width: 100%;
 }
 
 .contact-form input:focus,
@@ -172,7 +176,7 @@ body {
 }
 
 .button {
-    padding: 0.5rem 2rem;
+    padding: 1rem 5rem;
     border-radius: 2rem;
     border: 1px solid #fff;
     background: transparent;
@@ -246,7 +250,7 @@ body {
 }
 
 .footer img {
-    height: 24px;
+    height: 70px;
     margin-bottom: 0.5rem;
 }
 
