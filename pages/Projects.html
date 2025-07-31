@@ -2,15 +2,173 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon" />
-    <link rel="stylesheet" href="styles/reset.css" />
+    <title>Projects</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../styles/reset.css" />
     <link rel="stylesheet" href="../styles/Projects.css" />
-    <title>Projects - Esmira Aghamedova</title>
+    <!-- Example icons: using Font Awesome CDN for row/external icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <header class="header">
+      <div class="logo-burger">
+        <div class="logo">ESMIRA.</div>
+        <button class="burger-menu" id="burgerBtn" aria-label="Open menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+      <nav class="nav" id="mainNav">
+        <a href="../index.html">HOME</a>
+        <a href="About-me.html">ABOUT ME</a>
+        <a href="Projects.html">PROJECTS</a>
+        <a href="Contact.html">CONTACT ME</a>
+      </nav>
+    </header>
+    <main class="main-container">
+      <section class="about-header">
+        <h1>My Projects</h1>
+        <p>
+          Here are some of the projects I’ve worked on. Each project showcases
+          my skills, the technologies I used, and a live demonstration where
+          available.
+        </p>
+      </section>
+      <section class="projects-grid">
+        <!-- Project Card Example -->
+        <div class="project-card">
+          <img
+            src="../img/cognipeak.png"
+            alt="Project 1 Screenshot"
+            class="project-img"
+          />
+          <div class="project-content">
+            <h2 class="project-title">CogniPeak</h2>
+            <p class="project-desc">
+              A learning web page, where students can watch tutorials, 
+            </p>
+            <div class="project-langs">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              <span>OpenWeather API</span>
+            </div>
+            <div class="project-links">
+              <a
+                href="https://github.com/user/weather-app"
+                class="project-btn"
+                target="_blank"
+                rel="noopener"
+              >
+                <i class="fab fa-github"></i> GitHub
+              </a>
+              <a
+                href="https://weather-app-demo.com"
+                class="project-btn"
+                target="_blank"
+                rel="noopener"
+              >
+                <span>Live Demo</span>
+                <i class="fas fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- Repeat .project-card for more projects -->
+        <div class="project-card">
+          <img
+            src="img/project2.png"
+            alt="Project 2 Screenshot"
+            class="project-img"
+          />
+          <div class="project-content">
+            <h2 class="project-title">Task Manager</h2>
+            <p class="project-desc">
+              A productivity tool to manage tasks and deadlines. Includes user
+              authentication, task sorting, and reminders.
+            </p>
+            <div class="project-langs">
+              <span>React</span>
+              <span>Node.js</span>
+              <span>MongoDB</span>
+              <span>Express</span>
+            </div>
+            <div class="project-links">
+              <a
+                href="https://github.com/user/task-manager"
+                class="project-btn"
+                target="_blank"
+                rel="noopener"
+              >
+                <i class="fab fa-github"></i> GitHub
+              </a>
+              <a
+                href="https://task-manager-demo.com"
+                class="project-btn"
+                target="_blank"
+                rel="noopener"
+              >
+                <span>Live Demo</span>
+                <i class="fas fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <img
+            src="img/project3.png"
+            alt="Project 3 Screenshot"
+            class="project-img"
+          />
+          <div class="project-content">
+            <h2 class="project-title">Portfolio Website</h2>
+            <p class="project-desc">
+              Personal website to showcase my projects, skills, and contact
+              information. Clean design and fully responsive.
+            </p>
+            <div class="project-langs">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a
+                href="https://github.com/user/portfolio"
+                class="project-btn"
+                target="_blank"
+                rel="noopener"
+              >
+                <i class="fab fa-github"></i> GitHub
+              </a>
+              <a
+                href="https://my-portfolio-demo.com"
+                class="project-btn"
+                target="_blank"
+                rel="noopener"
+              >
+                <span>Live Demo</span>
+                <i class="fas fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- Add more .project-card as needed -->
+      </section>
+    </main>
+    <footer class="footer">
+      <img src="../img/tbc-logo.png" alt="Portfolio Footer Logo" />
+    </footer>
+    <script>
+      // Simple burger menu script
+      document
+        .querySelector(".burger-menu")
+        .addEventListener("click", function () {
+          document.querySelector(".nav").classList.toggle("active");
+        });
+    </script>
   </body>
 </html>

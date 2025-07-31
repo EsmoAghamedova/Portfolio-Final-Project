@@ -34,6 +34,8 @@ body {
     display: flex;
     align-items: center;
     gap: 1rem;
+    width: 100%;
+    justify-content: space-between;
 }
 
 .logo {
@@ -77,6 +79,7 @@ body {
     font-family: 'BPG ExtraSquare Mtavruli', sans-serif;
     transition: color 0.3s, border-bottom 0.3s;
     border-bottom: 2px solid transparent;
+    width: max-content;
 }
 
 .nav a:hover {

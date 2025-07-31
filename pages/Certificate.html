@@ -2,15 +2,137 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon" />
-    <link rel="stylesheet" href="styles/reset.css" />
+    <title>Certificates</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../styles/reset.css" />
     <link rel="stylesheet" href="../styles/Certificate.css" />
-    <title>Certificate - Esmira Aghamedova</title>
+    <!-- Font Awesome for icons if needed -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <header class="header">
+      <div class="logo-burger">
+        <div class="logo">ESMIRA.</div>
+        <button class="burger-menu" id="burgerBtn" aria-label="Open menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+      <nav class="nav" id="mainNav">
+        <a href="../index.html">HOME</a>
+        <a href="About-me.html">ABOUT ME</a>
+        <a href="Projects.html">PROJECTS</a>
+        <a href="Contact.html">CONTACT ME</a>
+      </nav>
+    </header>
+    <main class="main-container">
+      <section class="about-header">
+        <h1>My Certificates</h1>
+        <p>
+          Here are some of the certificates I have earned. Each demonstrates my dedication to learning and professional growth.
+        </p>
+      </section>
+      <section class="certificates-grid">
+        <!-- Certificate Card Example -->
+        <div class="certificate-card">
+          <img
+            src="img/certificate1.png"
+            alt="Certificate 1"
+            class="certificate-img"
+          />
+          <div class="certificate-content">
+            <h2 class="certificate-title">Front-End Development</h2>
+            <p class="certificate-desc">
+              Successfully completed the Front-End Development course, mastering HTML, CSS, JavaScript, and React.
+            </p>
+            <div class="certificate-meta">
+              <span><i class="fas fa-university"></i> Coursera</span>
+              <span><i class="fas fa-calendar-alt"></i> June 2024</span>
+            </div>
+            <div class="certificate-links">
+              <a
+                href="https://www.coursera.org/account/accomplishments/certificate/XXXX"
+                class="certificate-btn"
+                target="_blank"
+                rel="noopener"
+              >
+                <i class="fas fa-arrow-up-right-from-square"></i> View Certificate
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- Repeat .certificate-card for more certificates -->
+        <div class="certificate-card">
+          <img
+            src="img/certificate2.png"
+            alt="Certificate 2"
+            class="certificate-img"
+          />
+          <div class="certificate-content">
+            <h2 class="certificate-title">Back-End Development</h2>
+            <p class="certificate-desc">
+              Completed Back-End Development program, focused on Node.js, Express, databases, and RESTful APIs.
+            </p>
+            <div class="certificate-meta">
+              <span><i class="fas fa-university"></i> Udemy</span>
+              <span><i class="fas fa-calendar-alt"></i> March 2024</span>
+            </div>
+            <div class="certificate-links">
+              <a
+                href="https://www.udemy.com/certificate/XXXX/"
+                class="certificate-btn"
+                target="_blank"
+                rel="noopener"
+              >
+                <i class="fas fa-arrow-up-right-from-square"></i> View Certificate
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="certificate-card">
+          <img
+            src="img/certificate3.png"
+            alt="Certificate 3"
+            class="certificate-img"
+          />
+          <div class="certificate-content">
+            <h2 class="certificate-title">Python Specialization</h2>
+            <p class="certificate-desc">
+              Python for Everybody Specialization, covering core Python, data structures, and web data access.
+            </p>
+            <div class="certificate-meta">
+              <span><i class="fas fa-university"></i> Coursera</span>
+              <span><i class="fas fa-calendar-alt"></i> December 2023</span>
+            </div>
+            <div class="certificate-links">
+              <a
+                href="https://www.coursera.org/account/accomplishments/certificate/YYYY"
+                class="certificate-btn"
+                target="_blank"
+                rel="noopener"
+              >
+                <i class="fas fa-arrow-up-right-from-square"></i> View Certificate
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- Add more .certificate-card as needed -->
+      </section>
+    </main>
+    <footer class="footer">
+      <img src="../img/tbc-logo.png" alt="Portfolio Footer Logo" />
+    </footer>
+    <script>
+      // Simple burger menu script
+      document
+        .querySelector(".burger-menu")
+        .addEventListener("click", function () {
+          document.querySelector(".nav").classList.toggle("active");
+        });
+    </script>
   </body>
 </html>

@@ -4,17 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About Me | Esmira Aghamedova</title>
-    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/reset.css" />
     <link rel="stylesheet" href="../styles/About-me.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
-      rel="stylesheet"
-    />
   </head>
   <body>
-    <!-- 🔝 HEADER -->
     <header class="header">
       <div class="logo-burger">
         <div class="logo">ESMIRA.</div>
@@ -32,58 +25,157 @@
       </nav>
     </header>
 
-    <!-- 👩‍💻 ABOUT ME SECTION -->
-    <section class="about-section" id="about">
+    <main>
       <div class="about-container">
-        <h2 class="about-title">About Me</h2>
-        <div class="about-content">
-          <div class="about-text">
-            <p>
-              Hi! I'm <strong>Esmira Aghamedova</strong> — a passionate
-              front-end developer and UI/UX designer based in Tbilisi.
-            </p>
-            <p>
-              I'm currently a high school student with a deep love for building
-              elegant websites and crafting user-friendly designs. I began my
-              coding journey with HTML & CSS, and since then, I’ve been diving
-              deeper into JavaScript, React, and the beauty of design systems.
-            </p>
-            <p>
-              My work blends logic and creativity — I believe a good design not
-              only looks good but <em>feels right</em> to the user.
-            </p>
-            <p>
-              When I'm not coding, you’ll probably find me listening to K-pop,
-              sketching UI ideas, or sipping tea while brainstorming my next
-              project.
-            </p>
-            <p>Let’s connect and create something meaningful together!</p>
-          </div>
-          <div class="about-image-container">
-            <img
-              src="../img/about-img.jpg"
-              alt="Esmira's photo"
-              class="about-img"
-            />
-          </div>
+        <!-- Header / Intro -->
+        <div class="about-header">
+          <h1>About Me</h1>
+          <p>
+            Hey, I’m <strong>Esmira Aghamedova</strong> — a self-driven web
+            designer and front-end developer in the making. I obsess over clean
+            UI, logic that actually works, and building projects that feel
+            intentional. I’m constantly learning, iterating, and leveling up —
+            not just to make websites, but to create digital experiences that
+            reflect who I am and where I’m going.<br />
+            <span style="color: #baffea">This is my journey.</span>
+          </p>
         </div>
-      </div>
-    </section>
 
-    <!-- 🔚 FOOTER -->
+        <!-- Tech Journey Timeline -->
+        <section class="timeline-section">
+          <h2 class="timeline-title">Tech Journey</h2>
+          <div class="timeline">
+            <!-- Left: What I Know (now first column) -->
+            <div class="timeline-list">
+              <div class="timeline-item known">
+                <div class="dot"></div>
+                <h3>HTML5</h3>
+                <p>Semantic structure and accessible markup.</p>
+                <span class="status">Known</span>
+              </div>
+              <div class="timeline-item known">
+                <div class="dot"></div>
+                <h3>CSS3</h3>
+                <p>Layouts with Flexbox, Grid, and responsive design.</p>
+                <span class="status">Known</span>
+              </div>
+              <div class="timeline-item known">
+                <div class="dot"></div>
+                <h3>SCSS / SASS</h3>
+                <p>Organized, reusable, and nested styling with variables.</p>
+                <span class="status">Known</span>
+              </div>
+              <div class="timeline-item known">
+                <div class="dot"></div>
+                <h3>Figma</h3>
+                <p>Designing interfaces, prototypes, and visual systems.</p>
+                <span class="status">Known</span>
+              </div>
+              <div class="timeline-item known">
+                <div class="dot"></div>
+                <h3>Git & GitHub</h3>
+                <p>
+                  Version control, clean history, and collaboration workflow.
+                </p>
+                <span class="status">Known</span>
+              </div>
+            </div>
+            <!-- Right: Currently Learning (now second column) -->
+            <div class="timeline-list">
+              <div class="timeline-item learning">
+                <div class="dot"></div>
+                <h3>Tailwind CSS</h3>
+                <p>
+                  Utility-first styling, building fast, responsive UI without
+                  leaving HTML.
+                </p>
+                <span class="status">Learning</span>
+              </div>
+              <div class="timeline-item learning">
+                <div class="dot"></div>
+                <h3>JavaScript</h3>
+                <p>
+                  Core logic, DOM manipulation, and making pages interactive.
+                </p>
+                <span class="status">Learning</span>
+              </div>
+              <div class="timeline-item learning">
+                <div class="dot"></div>
+                <h3>React.js</h3>
+                <p>
+                  Components, state, props, and hooks — building reusable UI
+                  patterns.
+                </p>
+                <span class="status">Learning</span>
+              </div>
+              <div class="timeline-item learning">
+                <div class="dot"></div>
+                <h3>PostgreSQL</h3>
+                <p>
+                  Database fundamentals — schemas, queries, and structuring
+                  data.
+                </p>
+                <span class="status">Learning</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Values / Philosophy -->
+        <section class="values-section">
+          <h2>My Approach</h2>
+          <p>
+            I believe progress beats perfection. I’m the type who builds,
+            breaks, and rebuilds — constantly iterating so my work gets cleaner,
+            smarter, and more meaningful. I mix creativity with logic: design
+            that feels and code that functions. I don’t wait to be “ready” — I
+            learn by doing, and I level up by shipping. That’s the vibe.
+          </p>
+        </section>
+
+        <!-- Call to Action / Contact -->
+        <section class="cta-section">
+          <h2>Want to work together?</h2>
+          <p>
+            Whether it’s a project, collab, or just saying hey — I’m open. Let’s
+            build something that actually matters.
+          </p>
+          <a href="Contact.html" class="cta-btn">Get in touch</a>
+        </section>
+      </div>
+    </main>
+
     <footer class="footer">
       <a href="https://tbceducation.ge" target="_blank">
         <img src="../img/tbc-logo.png" alt="TBC Logo" />
       </a>
     </footer>
 
-    <!-- 🍔 BURGER MENU JS -->
     <script>
+      // Burger menu interaction
       const burgerBtn = document.getElementById("burgerBtn");
       const mainNav = document.getElementById("mainNav");
-
       burgerBtn.addEventListener("click", () => {
         mainNav.classList.toggle("active");
+      });
+
+      // Timeline reveal animation
+      document.addEventListener("DOMContentLoaded", () => {
+        const observer = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                entry.target.classList.add("show");
+                observer.unobserve(entry.target);
+              }
+            });
+          },
+          { threshold: 0.2 }
+        );
+
+        document.querySelectorAll(".timeline-item").forEach((el) => {
+          observer.observe(el);
+        });
       });
     </script>
   </body>
